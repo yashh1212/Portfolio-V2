@@ -11,7 +11,7 @@
   "browserslist": "> 0.25%, not dead",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/build-content.js && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "prebuild": "node scripts/build-content.js",
     "content": "node scripts/build-content.js",
