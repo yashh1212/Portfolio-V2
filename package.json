@@ -1,5 +1,5 @@
 {
-  "name": "v4",
+  "name": "v2",
   "description": "Yash Dhokane - Portfolio Website",
   "version": "1.0.0",
   "author": "Yash Dhokane",
@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/yashh1212"
   },
-  "license": "MIT",
+  "license": "",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
     "dev": "vite",
