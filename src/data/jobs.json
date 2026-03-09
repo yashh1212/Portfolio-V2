@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2025-05-01",
+    "title": "Software Developer Intern",
+    "company": "HHT Technologies",
+    "location": "Remote",
+    "range": "May 2025 - Present",
+    "url": "#",
+    "html": "<ul>\n<li>Building and shipping full-stack features across frontend (React) and backend (Node.js, Express) in a fast-paced remote environment</li>\n<li>Developing reusable, responsive UI components and scalable REST APIs that serve production traffic</li>\n<li>Identifying and resolving performance bottlenecks, improving page load times and API response efficiency</li>\n<li>Conducting code reviews and refactoring legacy modules to improve maintainability and reduce technical debt</li>\n</ul>\n"
+  },
+  {
+    "date": "2024-01-01",
+    "title": "Frontend Developer Intern",
+    "company": "RB Tech",
+    "location": "India",
+    "range": "January - April 2024",
+    "url": "#",
+    "html": "<ul>\n<li>Gained hands-on experience building responsive and intuitive web interfaces using React, JavaScript, HTML, and CSS</li>\n<li>Collaborated with senior developers to enhance user experiences across various devices</li>\n<li>Contributed to implementing features that ensured seamless functionality and cross-device compatibility</li>\n<li>Developed and maintained front-end components following modern web development best practices</li>\n</ul>\n"
+  }
+]

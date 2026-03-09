@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2024-06-01",
+    "title": "AI Codebase Architecture Analyzer",
+    "tech": [
+      "React",
+      "TypeScript",
+      "Python",
+      "FastAPI",
+      "Google Gemini",
+      "FAISS"
+    ],
+    "github": "",
+    "external": "https://your-project-link.vercel.app/",
+    "showInProjects": true,
+    "html": "<p>RAG-based platform for ingesting GitHub repos and enabling AI-powered code Q&amp;A with dependency graph visualization.</p>\n"
+  },
+  {
+    "date": "2024-03-01",
+    "title": "Hospital Website",
+    "tech": [
+      "React",
+      "Node.js",
+      "Express",
+      "REST API",
+      "Tailwind CSS"
+    ],
+    "github": "",
+    "external": "https://shrikrushnahospital.vercel.app/",
+    "showInProjects": true,
+    "html": "<p>Full-featured hospital website with patient portal, appointment booking, and doctor profiles.</p>\n"
+  },
+  {
+    "date": "2024-02-01",
+    "title": "Weather App",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "github": "",
+    "external": "https://serene-cobbler-2b97c7.netlify.app/",
+    "showInProjects": true,
+    "html": "<p>Real-time weather app with temperature, humidity, and forecast data for any location.</p>\n"
+  },
+  {
+    "date": "2024-01-15",
+    "title": "Stock Market Prediction",
+    "tech": [
+      "Python",
+      "Flask",
+      "Tkinter",
+      "Scikit-Learn"
+    ],
+    "github": "",
+    "external": "",
+    "showInProjects": true,
+    "html": "<p>ML-powered stock price prediction app with trend analysis and historical data visualization.</p>\n"
+  },
+  {
+    "date": "2023-12-01",
+    "title": "Chat Bot",
+    "tech": [
+      "Python",
+      "Flask",
+      "NLP",
+      "Machine Learning"
+    ],
+    "github": "",
+    "external": "",
+    "showInProjects": true,
+    "html": "<p>Intelligent chatbot powered by NLP and machine learning for automated user query responses.</p>\n"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "date": "2024-03-01",
+    "title": "Hospital Website",
+    "cover": "/images/featured/hospital.png",
+    "tech": [
+      "React",
+      "Node.js",
+      "Express",
+      "REST API",
+      "Tailwind CSS"
+    ],
+    "github": "https://github.com/yashh1212/hospital_frontend",
+    "external":"https://shrikrushnahospital.vercel.app/",
+    "cta": "",
+    "html": "<p>Created a comprehensive hospital website to enhance patient engagement and streamline services. Features include a secure patient portal for accessing medical records, booking appointments, and communicating with healthcare providers. Designed to be fully responsive across mobile and desktop devices.</p>\n"
+  },
+  {
+    "date": "2024-06-01",
+    "title": "AI Codebase Architecture Analyzer",
+    "cover": "/images/featured/ai-analyzer.jpg",
+    "tech": [
+      "React",
+      "TypeScript",
+      "Python",
+      "FastAPI",
+      "Google Gemini",
+      "Groq AI",
+      "FAISS"
+    ],
+    "github": "https://github.com/yashh1212/code-architecture-analyzer",
+    "external": "https://your-project-link.vercel.app/",
+    "cta": "",
+    "html": "<p>Built a RAG-based platform that ingests GitHub repos, parses source code via Python AST and JS regex, and enables natural-language Q&amp;A using Google Gemini LLM. Engineered a 5-stage ingestion pipeline with FAISS vector search and all-MiniLM-L6-v2 embeddings for sub-second semantic retrieval. Features a React + TypeScript dashboard with real-time AI chat, dependency graph visualization, and automated tech stack detection across 6+ frameworks.</p>\n"
+  }
+]
