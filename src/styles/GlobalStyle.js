@@ -213,7 +213,7 @@ const GlobalStyle = createGlobalStyle`
       width: 300px;
       height: 1px;
       margin-left: 20px;
-      background-color: var(--lightest-navy);
+      background: linear-gradient(90deg, var(--green), var(--lightest-navy) 80%, transparent);
 
       @media (max-width: 1080px) {
         width: 200px;

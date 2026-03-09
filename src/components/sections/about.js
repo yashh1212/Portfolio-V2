@@ -60,13 +60,14 @@ const StyledPic = styled.div`
     display: block;
     position: relative;
     width: 100%;
-    border-radius: var(--border-radius);
+    border-radius: 8px;
     background-color: var(--green);
 
     &:hover,
     &:focus {
       outline: 0;
       transform: translate(-4px, -4px);
+      box-shadow: 0 10px 30px -10px rgba(100, 255, 218, 0.3);
 
       &:after {
         transform: translate(8px, 8px);

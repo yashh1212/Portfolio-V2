@@ -1,8 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+
+const gradientShift = keyframes`
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+`;
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -29,6 +35,15 @@ const StyledHeroSection = styled.section`
     }
   }
 
+  h2.big-heading {
+    background: linear-gradient(135deg, #64ffda 0%, #57cbff 40%, #ccd6f6 100%);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: ${gradientShift} 6s ease infinite;
+  }
+
   h3 {
     margin-top: 5px;
     color: var(--slate);
@@ -43,6 +58,23 @@ const StyledHeroSection = styled.section`
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(100, 255, 218, 0.08), transparent);
+      transition: left 0.5s ease;
+    }
+
+    &:hover:before {
+      left: 100%;
+    }
   }
 `;
 

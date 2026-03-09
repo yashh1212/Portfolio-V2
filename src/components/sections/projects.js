@@ -58,6 +58,7 @@ const StyledProject = styled.li`
     &:focus-within {
       .project-inner {
         transform: translateY(-7px);
+        box-shadow: 0 10px 30px -15px rgba(100, 255, 218, 0.15);
       }
     }
   }
@@ -75,8 +76,9 @@ const StyledProject = styled.li`
     position: relative;
     height: 100%;
     padding: 2rem 1.75rem;
-    border-radius: var(--border-radius);
+    border-radius: 8px;
     background-color: var(--light-navy);
+    border: 1px solid transparent;
     transition: var(--transition);
     overflow: auto;
   }

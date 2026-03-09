@@ -17,6 +17,11 @@ const variables = css`
     --pink: #f57dff;
     --blue: #57cbff;
 
+    --gradient-text: linear-gradient(135deg, #64ffda 0%, #57cbff 50%, #f57dff 100%);
+    --gradient-accent: linear-gradient(135deg, #64ffda 0%, #57cbff 100%);
+    --glow-green: 0 0 15px rgba(100, 255, 218, 0.15);
+    --glow-blue: 0 0 20px rgba(87, 203, 255, 0.1);
+
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
       sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
