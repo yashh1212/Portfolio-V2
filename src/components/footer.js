@@ -67,8 +67,8 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/yashh1212">
-          <div>Designed &amp; Built by Yash Dhokane</div>
+        <a href="https://github.com/yashh1212/Portfolio-V2">
+          <div>Built by Yash Dhokane</div>
         </a>
       </StyledCredit>
     </StyledFooter>
