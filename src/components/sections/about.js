@@ -54,7 +54,7 @@ const About = () => {
   }, []);
 
   const skills = [
-    'JavaScript (ES6+)',
+    'JavaScript',
     'React',
     'Node.js',
     'Python',
@@ -68,33 +68,35 @@ const About = () => {
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
 
-      <div className="inner">
-        <StyledText>
-          <div>
-            <p>
-              Hello! I'm Yash, a passionate full-stack developer currently pursuing a B.Tech in
-              Cybersecurity Engineering (3rd year) with an <strong>8.03 CGPA</strong>. I enjoy
-              building scalable and efficient web applications that solve real-world problems.
-            </p>
+      
+    <div className="inner">
+  <StyledText>
+    <div>
+      <p>
+        Hello! I'm Yash, a passionate full-stack developer currently pursuing a B.Tech in
+        Cybersecurity Engineering (3rd year) with an <strong>8.03 CGPA</strong>. I enjoy
+        building scalable, efficient web applications that solve real-world problems — from
+        idea to deployment.
+      </p>
 
-            <p>
-              Skilled in both front-end and back-end development, I work with technologies like{' '}
-              <strong>React, Node.js, Python, Express, and MongoDB</strong>. With hands-on
-              experience in Git, databases, and cloud deployment, I focus on writing clean,
-              maintainable code.
-            </p>
+      <p>
+        Skilled in both front-end and back-end development, I work with technologies like{' '}
+        <strong>React, Node.js, Python, Express, and MongoDB</strong> to build products that
+        are fast, reliable, and maintainable. With hands-on experience across Git, REST APIs,
+        databases, and cloud deployment, I focus on writing clean, well-structured code that
+        scales.
+      </p>
 
-            <p>
-              I've had the opportunity to work as a{' '}
-              <a href="https://www.linkedin.com/in/yash-dhokane-85b876287/">
-                Frontend Developer Intern at RB Tech
-              </a>
-              , where I gained hands-on experience building responsive and intuitive web
-              interfaces, collaborating with senior developers to enhance user experiences.
-            </p>
+      <p>
+        Beyond traditional web development, I've been exploring{' '}
+        <strong>AI agents</strong> and how large language models can be integrated into real
+        products to automate workflows and solve complex problems intelligently. I find the
+        intersection of software engineering and AI particularly exciting — and it's the
+        direction I'm actively growing toward.
+      </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
-          </div>
+      <p>Here are a few technologies I've been working with recently:</p>
+    </div>
 
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
